@@ -26,9 +26,9 @@ class Node
             this->next = next;
         }
 
-        string get_link_color()
+        ChainLink get_link()
         {
-            return this->link->get_color();
+            return *link;
         }
 
         Node* get_next()
